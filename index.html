@@ -1,42 +1,27 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-    <title>Matriz MITRE ATT&amp;CK</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-    </style>
-</head>
-    <body class="container" background-position: center center>
-        <div class="wrapper two">
-            <div class="neon">
-                <h1>Cobertura ISH Puple Team - Matriz MITRE ATT&amp;CK</h1>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <title>ISH Puple Team</title>
+        <link rel="stylesheet" type="text/css" href="rsc/css/styles.css">
+    </head>
+    <body class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="#">CTI</a>
+            <a href="matriz.html">MITRE</a>
+            <a href="#">OWASP</a>
         </div>
-        
-            <table id="matriz">
-                <thead>
-                    <tr>
-                        <th>Reconnaissance</th>
-                        <th>Resource Development</th>
-                        <th>Initial Access</th>
-                        <th>Execution</th>
-                        <th>Persistence</th>
-                        <th>Privilege Escalation</th>
-                        <th>Defense Evasion</th>
-                        <th>Credential Access</th>
-                        <th>Discovery</th>
-                        <th>Lateral Movement</th>
-                        <th>Collection</th>
-                        <th>Command and Control</th>
-                        <th>Exfiltration</th>
-                        <th>Impact</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <!-- Linhas da matriz serão adicionadas dinamicamente aqui -->
-                </tbody>
-            </table>
-        <script src="script.js"></script>
+
+        <div id="main2">
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>  <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+            <div class="wrapper two">
+                <div class="neon">
+                    <h1>ISH Puple Team</h1>
+                </div>
+        </div>
+    <script src="rsc/js/script.js"></script>
     </body>
 </html>

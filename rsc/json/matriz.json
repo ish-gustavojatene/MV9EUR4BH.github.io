@@ -1,0 +1,57 @@
+{
+    "Initial Access": {
+      "Drive-by Compromise": {
+        "Alteração em atalhos para persistência": "https://attack.mitre.org/techniques/T1189",
+        "000:1311431:000:TA0006.T1555.004:Dump Password Credentials Manager with Mimikatz": "https://github.com/ish-cti-purple/CTI-PurpleTeam/blob/main/Regras/Sigma/Credential_Access/000.1311431.000.TA0006.T1555.004.Dump%20Password%20Credentials%20Manager%20with%20Mimikatz.yml",
+        
+        "Archive via Utility": "https://attack.mitre.org/techniques/T1189",
+        "SIGMA2": "http://qualquercoisa"
+      },
+      "Exploit Public-Facing Application": {
+        "PESQUISA": "https://attack.mitre.org/techniques/T1190",
+        "SIGMA": "http://qualquercoisa"
+      }
+    },
+    "Execution": {
+      "Cloud Administration Command": {
+        "URL": "https://attack.mitre.org/techniques/T1651",
+        "SIGMA": "http://qualquercoisa"
+      },
+      "Exploit Public-Facing Application_2": {
+        "PESQUISA": "https://attack.mitre.org/techniques/T1190",
+        "SIGMA": "http://qualquercoisa"
+      }
+    },
+    "Persistence": {
+  
+    },
+    "Privilege Escalation": {
+  
+    },
+    "Defense Evasion": {
+  
+    },
+    "Credential Access": {
+  
+    },
+    "Discovery": {
+      "Clouasdgdafhgfsjfsgjsfgjration Commandhfdbghdf": {
+        "URL": "https://attack.mitre.org/techniques/T1651",
+        "SIGMA": "http://qualquercoisa"}
+    },
+    "Lateral Movement": {
+  
+    },
+    "Collection": {
+  
+    },
+    "Exfiltration": {
+      "Cloud Administration Commandhfdbghdf": {
+        "URL": "https://attack.mitre.org/techniques/T1655",
+        "SIGMA": "http://qualquercoisa"}
+  
+    },
+    "Impact": {
+  
+    }
+  }  
