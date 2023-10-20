@@ -3,7 +3,7 @@ body {
     font-weight: bold;
 }
 
-.container {
+.container1 {
     background-image: url('/rsc/img/ISHLOGO2.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -12,42 +12,49 @@ body {
     margin: 20px;
 }
 
-table {
-    border-collapse: 1px;
-
-    width: 100%;
-    margin-top: 30px;
-
+.container2 {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-td {
-    color: white;
-    padding: 8px;
+.category {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+.subcategory {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+  
+.link {
+    display: block;
+    margin-top: 5px;
 }
 
-tr:nth-child(odd) {background-color: #a054ac;}
-
-tr:first-child {
-    background-color: hsl(281.77deg 49.32% 29.1%);
-}
-
-/* Modal styles */
+/* INÍCIO modal */
 .modal {
-    position: fixed;
+    color: #ffffff;
     display: none;
-    z-index: 1;
-    left: 0;
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
 }
 
-.modal-content {
-    background-color: #800080;
-    margin: 15% auto;
-    padding: 20px;
+.modal-content a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 5px;
     border: 1px solid #888;
     border-radius: 10px;
     width: fit-content;
@@ -55,30 +62,41 @@ tr:first-child {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.modal-content a{
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
 .modal-content a:hover {
     color: #000;
 }
+  
+.modal-content {
+    background-color: hsl(281.77deg 49.32% 29.1%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.modal-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+  
 .close {
     color: #aaa;
-    float: right;
+
     font-size: 68px;
     font-weight: bold;
+    position: absolute;
     cursor: pointer;
+    top: 10px;
+    right: 10px;
 }
+  /* FIM modal */
 
 .neon h1 {
     margin: 20px auto;
     animation: neon 1s ease infinite;
     text-align: center;
-  }
-  @keyframes neon {
+}
+@keyframes neon {
     0%,
     100% {
         text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
@@ -88,18 +106,8 @@ tr:first-child {
         text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
         color: #eda0d3;
     }
-  }
-
-button {
-    font-family: 'Courier New', Courier, monospace;
-    cursor: pointer;
-    transition: color 0.3s;
 }
-
-button:hover {
-    color: #800080;
-}
-
+  
 /* INICIO ############ SIDEBAR ############# */
 .sidenav {
     font-family: 'Courier New', Courier, monospace;
@@ -113,9 +121,9 @@ button:hover {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
+}
   
-  .sidenav a {
+.sidenav a {
     font-family: 'Courier New', Courier, monospace;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -124,28 +132,29 @@ button:hover {
     font-weight: bold;
     display: block;
     transition: 0.3s;
-  }
+}
   
-  .sidenav a:hover {
+.sidenav a:hover {
     color: #f1f1f1;
-  }
+}
   
-  .sidenav .closebtn {
+.sidenav .closebtn {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   /* FIM ############SIDEBAR############# */
 
-
-  .colmeia {
+/* INÍCIO COLMEIA */
+.colmeia {
+    color: #ffffff;
     width: 300px;
     height: auto; /* Ajuste a altura conforme necessário */
     padding: 20px;
-    background-color: #ffd700;
+    background-color: hsl(281.77deg 49.32% 29.1%);
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -154,4 +163,11 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
+
+.colmeia:hover {
+    transform: scale(1.1);
+    color: #000;
+}
+
+/* FIM COLMEIA */

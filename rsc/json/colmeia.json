@@ -1,0 +1,30 @@
+{
+  "Framework PURPLE": {
+    "Introdução às Regras Sigmas": {
+      "Acessar documento": "https://github.com/ish-cti-purple/CTI-PurpleTeam/blob/main/Documentos/Guia%20do%20Sigma/1.Introdu%C3%A7%C3%A3o%20%C3%A0s%20Regras%20Sigmas.md"
+
+    }
+  },
+  "Guia SIGMA": {
+    "Introdução às Regras Sigmas": {
+      "Acessar documento": "https://github.com/ish-cti-purple/CTI-PurpleTeam/blob/main/Documentos/Guia%20do%20Sigma/1.Introdu%C3%A7%C3%A3o%20%C3%A0s%20Regras%20Sigmas.md"
+
+    },
+    "Interpretação e Aplicação de Regra Sigma": {
+      "Acessar documento": "https://github.com/ish-cti-purple/CTI-PurpleTeam/blob/main/Documentos/Guia%20do%20Sigma/2.Interpreta%C3%A7%C3%A3o%20e%20Aplica%C3%A7%C3%A3o%20de%20Regra%20Sigma.md"
+    }
+  },
+  "Guia de ativação de auditorias": {
+    "Guia de Ativação Estratégica de Auditoria de Segurança para Windows": {
+      "Acessar documento": "https://github.com/ish-cti-purple/CTI-PurpleTeam/blob/main/Documentos/%5BCTI%20Purple%20Team%5D%20Guia%20de%20Ativa%C3%A7%C3%A3o%20Estrat%C3%A9gica%20de%20Auditoria%20de%20Seguran%C3%A7a%20para%20Windows.md"
+    }
+  },
+  "PurpleTeam-SysmonSentinel": {
+    "Instalação": {
+      "Acessar documento": "https://github.com/ish-cti-purple/PurpleTeam-SysmonSentinel/blob/main/Manuais/1.Instala%C3%A7%C3%A3o.md"
+    },
+    "Eventos": {
+      "Acessar documento": "https://github.com/ish-cti-purple/PurpleTeam-SysmonSentinel/blob/main/Manuais/2.Eventos.md"
+    }
+  }
+}  
