@@ -155,3 +155,12 @@ button:hover {
     align-items: center;
     justify-content: center;
   }
+
+::selection { 
+    background: #7966af; 
+    color: #fff; 
+} 
+::-moz-selection {
+     background: #7966af; 
+     color: #fff; 
+}

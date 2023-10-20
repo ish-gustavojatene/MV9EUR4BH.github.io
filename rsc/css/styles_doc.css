@@ -171,3 +171,12 @@ body {
 }
 
 /* FIM COLMEIA */
+
+::selection { 
+    background: #7966af; 
+    color: #fff; 
+} 
+::-moz-selection {
+     background: #7966af; 
+     color: #fff; 
+}
