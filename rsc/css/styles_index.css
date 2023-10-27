@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: consolas;
     font-weight: bold;
 }
 
@@ -24,7 +24,6 @@ table {
     margin-top: 10%;
     color: #fff;
     margin-left: auto;
-    font-family: arial, sans-serif;
   }
 
 th{
@@ -73,7 +72,7 @@ th{
 
 /* INICIO ############ SIDEBAR ############# */
 .sidenav {
-    font-family: 'Courier New', Courier, monospace;
+    
     height: 100%;
     width: 0;
     position: fixed;
@@ -87,7 +86,7 @@ th{
   }
   
   .sidenav a {
-    font-family: 'Courier New', Courier, monospace;
+    
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -102,7 +101,7 @@ th{
   }
   
   .sidenav .closebtn {
-    font-family: 'Courier New', Courier, monospace;
+    
     position: absolute;
     top: 0;
     right: 25px;

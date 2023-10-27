@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: consolas;
     font-weight: bold;
 }
 
@@ -14,7 +14,6 @@ body {
 
 table {
     border-collapse: 1px;
-
     width: 100%;
     margin-top: 30px;
 
@@ -102,7 +101,6 @@ button:hover {
 
 /* INICIO ############ SIDEBAR ############# */
 .sidenav {
-    font-family: 'Courier New', Courier, monospace;
     height: 100%;
     width: 0;
     position: fixed;
@@ -116,7 +114,6 @@ button:hover {
   }
   
   .sidenav a {
-    font-family: 'Courier New', Courier, monospace;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -131,7 +128,6 @@ button:hover {
   }
   
   .sidenav .closebtn {
-    font-family: 'Courier New', Courier, monospace;
     position: absolute;
     top: 0;
     right: 25px;
